@@ -5,6 +5,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'digital': ['Quantico', 'serif']
+    }
   },
   plugins: [],
 }
