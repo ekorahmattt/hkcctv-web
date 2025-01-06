@@ -5,9 +5,16 @@ function App() {
   return (
     <>
       <div className="overflow-hidden">
-        <div className="w-full pt-3">
-          <img className="w-1/2 m-auto" src="/HK_CCTV_BW_LG.png" alt="logo"/>
-          <p><span className="material-symbols-outlined">location_on</span></p>
+        <div className="w-full pt-3 md:flex md:px-5 md:items-center">
+          <img className="w-1/2 pb-5 m-auto md:w-1/6 md:flex-2" src="/HK_CCTV_BW_LG.png" alt="logo"/>
+          <p className="text-center text-4xl text-blue-500 font-bold md:flex-1 md:text-5xl">PESTA RAKYAT KALTIM 2025</p>
+          
+          <div className="flex justify-center gap-5 pt-3 md:flex-col md:flex-2">
+            <p className="text-lg font-semibold"><span className="material-symbols-outlined text-blue-500">event</span>
+            9-12 Januari 2025</p>
+            <p className="text-lg font-semibold"><span className="material-symbols-outlined text-blue-500">location_on</span>
+            GOR Kadrie Oening, Sempaja, Samarinda</p> 
+          </div>
         </div>
 
         <div className="grid grid-cols-2 pt-5 px-5 gap-3">
@@ -25,26 +32,42 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <ReactPlayer 
-            url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
-            playing={true}
-            loop={true}
-            className='px-5 pt-5'
-          />
-          <ReactPlayer 
-            url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
-            playing={true}
-            loop={true}
-            className='px-5 pt-5'
-          />
+        <div className="px-5 md:flex md:flex-wrap md: justify-center md:gap-5">
+          <div className="pt-3">
+            <p className="text-lg font-bold pb-2">Pintu Depan</p>
+            <ReactPlayer 
+              url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
+              playing={true}
+              loop={true}
+            />
+          </div>
 
-          {/* <ReactPlayer 
-            url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
-            playing={true}
-            loop={true}
-            className='px-5 pt-5'
-          /> */}
+          <div className="pt-3">
+            <p className="text-lg font-bold pb-2">Pintu Depan</p>
+            <ReactPlayer 
+              url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
+              playing={true}
+              loop={true}
+            />
+          </div>
+
+          <div className="pt-3">
+            <p className="text-lg font-bold pb-2">Pintu Depan</p>
+            <ReactPlayer 
+              url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
+              playing={true}
+              loop={true}
+            />
+          </div>
+
+          <div className="pt-3">
+            <p className="text-lg font-bold pb-2">Pintu Depan</p>
+            <ReactPlayer 
+              url={'https://www.youtube.com/watch?v=DOOrIxw5xOw'} 
+              playing={true}
+              loop={true}
+            />
+          </div>
         </div>
       </div>
     </>
