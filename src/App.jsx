@@ -5,8 +5,9 @@ function App() {
   return (
     <>
       <div className="overflow-hidden">
-        <div>
-          
+        <div className="w-full pt-3">
+          <img className="w-1/2 m-auto" src="/HK_CCTV_BW_LG.png" alt="logo"/>
+          <p><span className="material-symbols-outlined">location_on</span></p>
         </div>
 
         <div className="grid grid-cols-2 pt-5 px-5 gap-3">
