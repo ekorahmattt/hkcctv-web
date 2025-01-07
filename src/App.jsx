@@ -1,4 +1,4 @@
-import ReactPlayer from "react-player/youtube"
+import ReactPlayer from "react-player"
 
 function App() {
 
@@ -13,11 +13,11 @@ function App() {
             <p className="text-lg font-semibold"><span className="material-symbols-outlined text-blue-500">event</span>
             9-12 Januari 2025</p>
             <p className="text-lg font-semibold"><span className="material-symbols-outlined text-blue-500">location_on</span>
-            GOR Kadrie Oening, Sempaja, Samarinda</p> 
+            Lapangan GOR Kadrie Oening Samarinda</p> 
           </div>
         </div>
 
-        <div className="grid grid-cols-2 pt-5 px-5 gap-3">
+        <div className="grid grid-cols-2 pt-5 px-5 gap-5">
           <div className="m-auto w-full">
             <p className="text-center text-xl font-semibold">MASUK</p>
             <div className="py-5 bg-slate-200 rounded-xl shadow-lg">
